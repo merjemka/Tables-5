@@ -1,0 +1,39 @@
+﻿<Window x:Class="Tables_5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tables_5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <FlowDocument>
+    <Table>
+        <Table.Columns>
+
+            <TableColumn/>
+            <TableColumn/>
+            <TableColumn/>
+        </Table.Columns>
+
+        <TableRowGroup>
+            <TableRow>
+                <TableCell ColumnSpan="3" Background="Cyan">
+                    <Paragraph> This cell spans all three columns.</Paragraph>
+                </TableCell>
+            </TableRow>
+
+            <TableRow>
+                <TableCell Background="LightGray">
+                    <Paragraph> Cell 1 </Paragraph></TableCell>
+                <TableCell Background="LightGray">
+                    <Paragraph>Cell 2</Paragraph>
+                </TableCell>
+                <TableCell Background="LightGray">
+                    <Paragraph>Cell 3</Paragraph>
+                </TableCell>
+            </TableRow>
+        </TableRowGroup>
+        
+    </Table>
+    </FlowDocument>
+</Window>
